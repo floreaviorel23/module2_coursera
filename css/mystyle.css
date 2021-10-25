@@ -35,7 +35,7 @@ body{
     right: 0;
     border: 1px solid black;
     font-size: 24px; 
-    width: 30%;
+    width: 40%;
     text-align: center;
     padding: 5px;
 }
@@ -149,7 +149,7 @@ I modified a little what it does for medium and smaller devices, setting the hei
     }
 
     .box-title-3{
-        width: 15%;
+        width: 20%;
     }
 
     .row{
