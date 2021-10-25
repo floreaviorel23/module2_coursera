@@ -107,7 +107,9 @@ I modified a little what it does for medium and smaller devices, setting the hei
   }
   
   /********** Medium devices only **********/
-  @media (min-width: 768px) and (max-width: 991px) {
+
+  /* Note : Need to use 991.5px cuz of a random bug that occurs at exactly 991px. I found this fix on stackoverflow */
+  @media (min-width: 768px) and (max-width: 991.5px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
       float: left;
     }
